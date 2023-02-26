@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="./styles-output.css">
+</head>
+<body class="m-2.5" onload="Load()">
+    <h1 class="text-center text-5xl py-5">to-do</h1>
+    <ul id="lista">
+
+    </ul>
+    <div class="inputform">
+        <form id="form" onsubmit="return false;">
+            
+            <div class="flex flex-row items-center">
+                <input type="text" name="" id="name" class=" first-letter:g-gray-900 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 basis-2/3 max-h-70 min-h-max">
+                <button id="add" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2.5 py-2.5 mr-2 ml-2  basis-1/6 h-70 max-h-70 min-h-max content-center">Aggiungi</button>
+                <button id="reset" class="text-white bg-red-500 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-2.5 py-2.5 mr-2  basis-1/6 h-70 max-h-70 min-h-max " onclick="Pulisci()">Svuota</button>
+            </div>
+
+
+        </form>
+        
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
